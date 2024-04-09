@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -9,7 +8,7 @@ import 'package:jay_modi/SplashScreen/SecondSplashScreen.dart';
 class OneSplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    Timer(Duration(seconds: 3), () {
+    Timer(Duration(seconds: 2), () {
       Navigator.push(context,MaterialPageRoute
       (builder: (context)=> SecondSplashScreen()));
     });
